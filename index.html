@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Estudos</title>
+
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <section class="perfil">
+
+      <h1>🎮 Sistema de Estudos</h1>
+
+      <div class="card-perfil">
+
+        <h2>Meyson</h2>
+
+        <p id="level">Level 1</p>
+
+        <div class="xp-container">
+          <div class="xp-bar"></div>
+        </div>
+
+        <p class="xp-texto">0 / 100 XP</p>
+
+      </div>
+
+    </section>
+
+    <section class="card">
+
+      <h2>🔥 Streak</h2>
+
+      <p id="streakTexto">0 dias seguidos estudando</p>
+
+    </section>
+
+    <section class="card">
+
+      <h2>⏱️ Cronômetro</h2>
+
+      <h1 id="tempo">00:00:00</h1>
+
+      <div class="botoes">
+        <button id="btnIniciar">Iniciar</button>
+        <button id="btnPausar">Pausar</button>
+        <button id="btnResetar">Resetar</button>
+      </div>
+
+    </section>
+
+    <section class="card">
+
+      <h2>🎯 Metas do Dia</h2>
+
+      <div class="input-area">
+
+        <input
+          id="inputMeta"
+          type="text"
+          placeholder="Digite uma meta..."
+        >
+
+        <button id="btnAdicionar">
+          Adicionar
+        </button>
+
+      </div>
+
+      <div id="listaMetas"></div>
+
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
